@@ -1,6 +1,7 @@
 {
 	"data": [
 		{
+			"id": "1",
 			"email": "test@gmail.com",
 			"name": "test",
 			"played": 0,
@@ -9,6 +10,7 @@
 			"current-streak": 0
 		},
 		{
+			"id": "2",
 			"email": "ari@gmail.com",
 			"name": "ari",
 			"played": 0,
