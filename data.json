@@ -1,18 +1,20 @@
-[
-    {
-        "email":"test@gmail.com",
-        "name":"test",
-        "played":0,
-        "won":0,
-        "min-streak":6,
-        "current-streak":0
-    },
-    {
-        "email":"ari@gmail.com",
-        "name":"ari",
-        "played":0,
-        "won":0,
-        "min-streak":6,
-        "current-streak":0
-    }
-]
+{
+	"data": [
+		{
+			"email": "test@gmail.com",
+			"name": "test",
+			"played": 0,
+			"won": 0,
+			"min-streak": 6,
+			"current-streak": 0
+		},
+		{
+			"email": "ari@gmail.com",
+			"name": "ari",
+			"played": 0,
+			"won": 0,
+			"min-streak": 6,
+			"current-streak": 0
+		}
+	]
+}
