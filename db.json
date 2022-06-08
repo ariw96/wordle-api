@@ -17,6 +17,15 @@
 			"won": 0,
 			"min-streak": 6,
 			"current-streak": 0
+		},
+		{
+			"id": "3",
+			"email": "ariw@gmail.com",
+			"name": "ariwolf",
+			"played": 0,
+			"won": 0,
+			"min-streak": 6,
+			"current-streak": 0
 		}
 	]
 }
