@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const fs = require("fs")
 const app = express();
 app.use(cors());
 const importData = require('./db.json');
@@ -12,6 +13,7 @@ app.get('/', (req, res) => {
 });
 app.post('/', (req, res) => {
     console.log(req.body);
+    fs.writeFileSync('./db.json', JSON.stringify(req.body));
  res.status(201).send(req.body);
 
 });
