@@ -1,6 +1,8 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
-const importData = require('./data.json');
+app.use(cors());
+const importData = require('./db.json');
 let port = process.env.PORT || 4000;
 
 app.get('/', (req, res) => {

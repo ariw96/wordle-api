@@ -1,1 +1,1 @@
-# wordle-api
+# shoes-api
